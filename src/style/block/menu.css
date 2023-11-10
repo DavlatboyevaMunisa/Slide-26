@@ -1,0 +1,71 @@
+.menu{
+    background-color: #F1F2F4;
+    width: 100%;
+    height: 793px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.menu-card{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr); /* 2 ta qator */
+    grid-template-columns: repeat(4, 1fr); /* 4 ta ustun */
+    grid-gap: 20px;
+    padding: 30px 0;
+    cursor: pointer;
+}
+.menu-card_list{
+    background-color: var(--text-color);
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.menu-btn{
+    text-align: center;
+    width: 210px;
+    height: 52px;
+    border: 1px solid #ED1424;
+    border-radius: 70px;
+    cursor: pointer;
+}
+.menu-item_btn{
+    width: 77px;
+    height: 22px;
+    border-radius: 24px;
+    font-size: 13px;
+    background: transparent;
+}
+.menu-item_img{
+    height: 190px;
+}
+.menu-item_title{
+    /* width: 177px;
+    height: 27px; */
+    font-size: 18px;
+    margin: 10px 0 0 0;
+    text-align: start;
+}
+.menu-item_text{
+   font-size: 16px;
+   line-height: 24px;
+   color: #372222; 
+   margin: 0;
+   text-align: start;
+}
+.a, .b, .e{
+    border: 1px solid var(--btn-color);
+    color: var(--btn-color);
+}
+.c, .h{
+    border: 1px solid var(--btn-salati-color3);
+    color: var(--btn-salati-color3);
+}
+.d, .g{
+    border: 1px solid var(--btn-salati-color6);
+    color: var(--btn-salati-color6);
+}
+.f{
+    border: 1px solid var(--btn-salati-color5);
+    color: var(--btn-salati-color5);
+}

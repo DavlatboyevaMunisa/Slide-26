@@ -1,0 +1,12 @@
+@import url('./src/style/variable.css');
+@import url('./src/style/global.css');
+@import url('./src/style/block/header.css');
+@import url('./src/style/container.css');
+@import url('./src/style/fonts.css');
+@import url('./src/style/block/hero.css');
+@import url('./src/style/block/category.css');
+@import url('./src/style/block/menu.css');
+@import url('./src/style/block/poleznosti.css');
+@import url('./src/style/block/o_nas.css');
+@import url('./src/style/block/contack.css');
+@import url('./src/style/block/footer.css');

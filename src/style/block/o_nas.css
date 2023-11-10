@@ -1,0 +1,55 @@
+.about{
+    background-color: #F1F2F4;
+}
+.about-top{
+    display: flex;
+    height: 680px;
+}
+.about-text{
+    width: 50%;
+    padding: 100px 0;
+}
+.about-title{
+    width: 80%;
+    height: 60px;
+    font-size: 24px;
+    line-height: 30px;
+}
+.about-text_item{
+    width: 70%;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 70%;
+}
+.about-btn{
+    width: 193px;
+    height: 52px;
+    border-radius: 70px;
+    background-color: var(--btn-color);
+    border: none;
+    color: var(--text-color);
+    margin-top: 80px;
+    cursor: pointer;
+}
+.about-btn:hover{
+    background: transparent;
+    color: var(--btn-color);
+    border: 3px solid var(--btn-color);
+}
+.about-img{
+    width: 50%;
+    background-image: url('../../assets/images/elipse.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40% 0 0 30px;
+}
+.about-img .span{
+    width: 137px;
+    height: 203px;
+    background-image: url('../../assets/images/elips_mine.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-top: -135px;
+    margin-left: -23px;
+}

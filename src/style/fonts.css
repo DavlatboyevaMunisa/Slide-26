@@ -1,0 +1,15 @@
+@font-face {
+  font-display: swap; 
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/Inter/static/Inter-Regular.ttf') format('ttf')
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: url('../assets/fonts/Poppins/Poppins-Bold.ttf') format('ttf') 
+}
